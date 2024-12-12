@@ -26,7 +26,7 @@ export class ProjectlistComponent {
     const mappedProjects = data.map((repo: any, index: number) => ({
       id: index + 1,
       title: repo.name,
-      description: repo.html_url,
+      description: repo.description,
       language: repo.language,
       link: repo.html_url,
     }))
