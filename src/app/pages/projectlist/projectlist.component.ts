@@ -28,6 +28,7 @@ export class ProjectlistComponent {
       title: repo.name,
       description: repo.html_url,
       language: repo.language,
+      link: repo.html_url,
     }))
     this.projects.set(mappedProjects);
   }

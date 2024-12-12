@@ -3,4 +3,5 @@ export interface Project {
     title: string;
     description: string;
     language: string;
+    link: string;
 }
